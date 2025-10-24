@@ -17,6 +17,7 @@ body {
   background-color: #000000;
   color: var(--text);
    overflow-x: hidden;
+   max-width: 100%;
 }
 
 canvas {
@@ -741,7 +742,8 @@ input::placeholder {
 @media (max-width: 1600px) {
   header {
     box-shadow: 0 0 30px var(--highlight);
-    width: 130%;
+    width: 100%;
+    overflow-x: hidden;
   }
 
   .rodape {
@@ -750,8 +752,7 @@ input::placeholder {
   }
 
   .rodape2 {
-    position: absolute;
-    right: 5%;
+    position: relative;
     bottom: 5px;
   }
 
@@ -921,7 +922,7 @@ input::placeholder {
     align-items: center;
     justify-content: center;
     text-align: center;
-    
+    max-width: 100%;
   }
 
   .nav {
@@ -1001,7 +1002,7 @@ input::placeholder {
   .especialidades {
     position: relative;
     margin-top: 80px;
-    width: 100%;
+    width: 90%;
     min-width: 50%;
     text-align: center;
     
@@ -1014,16 +1015,10 @@ input::placeholder {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-  }
-
-  .Services{
     width: 85%;
   }
 
-  .Education{
-    width: 85%;
-  }
+  
 
   .item {
     left: 200%;
@@ -1031,21 +1026,29 @@ input::placeholder {
 
   @keyframes autoRun {
     from {
-      left: 120%;
+      left: 100%;
     }
 
     to {
-      left: -450px;
+      left: -400px;
     }
   }
 
   @keyframes reverseRun {
     from {
-      left: -350px;
+      left: -300px;
     }
 
     to {
-      left: 720%;
+      left: 700%;
+    }
+  }
+
+  .Contact, input{
+    width: 80%;
+
+    & textarea{
+      width: 80%;
     }
   }
 
@@ -1053,18 +1056,28 @@ input::placeholder {
     position: relative;
     gap: 30px;
     flex-direction: column;
+    
   }
 
   .email{
     font-size: 15px;
     position: relative;
+    flex-direction: column;
+    
   }
   
-  .rodape2{
-  position: relative;
-  left: 3%;
+ .rodape2 {
+  position: inherit;
+  display: flex;
+  justify-content: center;  /* Centraliza os ícones */
+  align-items: center;
+  gap: 10px;
   width: 100%;
-  }
+  flex-wrap: wrap;
+  overflow-x: hidden; /* evita barra horizontal */
+}
+
+  
 
 }
 
