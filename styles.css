@@ -16,7 +16,7 @@ body {
   font-family: "Inter", sans-serif;
   background-color: #000000;
   color: var(--text);
-
+   overflow-x: hidden;
 }
 
 canvas {
@@ -831,6 +831,10 @@ input::placeholder {
 
 /* Tablets (até 1024px) */
 @media (max-width: 1024px) {
+
+  body{
+    overflow-x: hidden;
+  }
 
 
    .socials{
