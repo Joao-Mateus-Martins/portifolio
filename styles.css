@@ -1066,11 +1066,11 @@ input::placeholder {
 
   @keyframes reverseRun {
     from {
-      left: -300px;
+      left: -400px;
     }
 
     to {
-      left: 700%;
+      left: 400%;
     }
   }
 
