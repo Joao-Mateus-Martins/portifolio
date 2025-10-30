@@ -116,6 +116,7 @@ nav a:hover {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  
 }
 
 .profile-img img {
@@ -130,7 +131,10 @@ nav a:hover {
   position: absolute;
   align-items: center;
   justify-content: center;
+  
 }
+
+
 
 
 /* Text */
@@ -498,25 +502,36 @@ h2 {
 
 }
 
-.link {
+.link{
+  position: relative;
+  align-items: center;
+  justify-content: center;
   display: flex;
-  gap: 60px;
+  gap: 10px;
   margin-top: 40px;
   font-size: 40px;
-  margin-left: 40%;
   border-radius: 50px;
   cursor: pointer;
-  padding: 20px 20px;
+  right: 0;
 }
 
-.linke,
-.githu {
+.h4{
+  position: relative;
+  left: 110px;
+  margin-bottom: 130px;
+  right: 0;
+}
+
+
+.linke{
+  flex-direction: column-reverse;
   border: #ff0000 solid;
   border-radius: 100px;
   padding: 10px 15px;
   box-shadow: 0 0 30px var(--highlight);
   transition: 0.7s;
 }
+
 
 .linke:hover {
   background: #ffffff;
@@ -741,6 +756,7 @@ input::placeholder {
 
 @media (max-width: 1600px) {
   header {
+    position: relative;
     box-shadow: 0 0 30px var(--highlight);
     width: 100%;
     overflow-x: hidden;
@@ -792,9 +808,17 @@ input::placeholder {
 
   .link {
     position: relative;
+    margin-left: 20%;
     align-items: center;
-    display: flex;
-    margin-right: 39%;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .h4{
+    position: relative;
+    margin-right: 0;
   }
 
   .R img {
@@ -965,12 +989,6 @@ input::placeholder {
     width: 60%;
   }
 
-  .link {
-    position: relative;
-    align-items: center;
-    display: flex;
-    margin-right: 39%;
-  }
 
   .R img {
     display: none;
@@ -993,10 +1011,22 @@ input::placeholder {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
     position: relative;
-    right: 0;
+    right: 5px;
     padding: 20px 0;
+     position: relative;
+    margin-right: 26%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 27px;
+    right: 11%;
+  }
+
+  .h4{
+    position: relative;
+    margin-right: 15px;
   }
 
   .especialidades {
