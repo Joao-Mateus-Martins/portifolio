@@ -60,7 +60,7 @@ function connect() {
 
       if (distance < maxDistance) {
         ctx.beginPath();
-        ctx.strokeStyle = "rgba(255, 0, 0, 0.3)";
+        ctx.strokeStyle = "rgba(131, 0, 0, 0.3)";
         ctx.lineWidth = 1;
         ctx.moveTo(particles[a].x, particles[a].y);
         ctx.lineTo(particles[b].x, particles[b].y);
