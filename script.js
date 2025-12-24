@@ -67,3 +67,25 @@ const cursor = document.querySelector(".cursor");
 document.addEventListener("mousemove", (e) => {
   cursor.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
 });
+
+const menuToggle = document.getElementById('menu-toggle');
+const menu = document.getElementById('menu');
+
+menuToggle.addEventListener('click', () => {
+  const isActive = menu.classList.toggle('active');
+  menuToggle.setAttribute('aria-expanded', isActive ? 'true' : 'false');
+  menu.setAttribute('aria-hidden', isActive ? 'false' : 'true');
+});
+
+/* opcional: fechar o menu ao clicar fora (user-friendly) */
+document.addEventListener('click', (e) => {
+  const insideMenu = menu.contains(e.target) || menuToggle.contains(e.target);
+  if (!insideMenu && menu.classList.contains('active')) {
+    menu.classList.remove('active');
+    menuToggle.setAttribute('aria-expanded', 'false');
+    menu.setAttribute('aria-hidden', 'true');
+  }
+});
+
+
+
