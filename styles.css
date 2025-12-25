@@ -801,7 +801,9 @@ input::placeholder {
     overflow-x: hidden;
   }
 
-
+  .desktop-nav{
+    display: none;
+  }
 
 
   .socials {
@@ -810,9 +812,17 @@ input::placeholder {
     align-items: center;
   }
 
-  .logo {
+  .Box {
+    position: relative;
     text-align: center;
+    align-items: center;
     justify-content: center;
+  }
+
+  .logo h2{
+    text-align: center;
+    align-items: center;
+    justify-content: center ;
   }
 
   .menu {
@@ -1029,7 +1039,7 @@ input::placeholder {
 
   .rodape {
     flex-direction: column;
-
+    width: 105%;
   }
 
   .tag {
@@ -1053,7 +1063,7 @@ input::placeholder {
     /* Centraliza os ícones */
     align-items: center;
     gap: 10px;
-    width: 105%;
+    
 
   }
 

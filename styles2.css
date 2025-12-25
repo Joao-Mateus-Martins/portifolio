@@ -115,7 +115,8 @@
   position: fixed;
   display: flex;
   animation: fade .18s ease;
-  top: 10%;
+  top: 12%;
+  right: 5%;
   background-color: rgb(14, 13, 13);
   opacity: 0.8;
 }
@@ -146,9 +147,17 @@ nav a:hover {
 @media (max-width: 768px) {
 
   .Box{
-    width: 100%;
+    width: 105%;
     position: fixed;
+    
   }
+
+  .logo{
+    width: 100%;
+    font-size: 25px;
+  }
+
+ 
 
   /* esconder o menu tradicional no mobile (porque o menu1 será usado) */
   .desktop-nav {
@@ -157,6 +166,7 @@ nav a:hover {
 
   /* menu-toggle pode ficar maior no mobile */
   .menu-toggle {
+    position: relative;
     font-size: 26px;
     padding: 10px 14px;
     border-radius: 10px;
@@ -175,8 +185,9 @@ nav a:hover {
   justify-content: center;
   animation: fade .18s ease;
   top: 10%;
-  width: 40%;
+  width: 20%;
   background-color: rgb(41, 41, 41);
   opacity: 0.8;
+  right: 30px;
 }
 }
