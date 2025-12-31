@@ -155,6 +155,7 @@ nav a:hover {
   .logo{
     width: 100%;
     font-size: 25px;
+    margin-left: 15%;
   }
 
  
@@ -167,7 +168,7 @@ nav a:hover {
   /* menu-toggle pode ficar maior no mobile */
   .menu-toggle {
     position: relative;
-    font-size: 26px;
+    font-size: 15px;
     padding: 10px 14px;
     border-radius: 10px;
   }
@@ -178,9 +179,54 @@ nav a:hover {
   text-align: center;
   justify-content: center;
   animation: fade .18s ease;
-  top: 10%;
-  
+  top: 13%;
   opacity: 0.8;
   
 }
+}
+
+@media (max-width: 500px) {
+
+
+
+
+  @keyframes autoRun {
+    from {
+      left: 120%;
+    }
+
+    to {
+      left: -450px;
+    }
+  }
+
+  @keyframes reverseRun {
+
+    from {
+      left: -450px;
+    }
+
+    to {
+      left: 720%;
+    }
+  }
+
+  .logo{
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  .baixo {
+    margin-bottom: 90rem;
+
+  }
+
+  .contact {
+    & h2 {
+      font-size: 10px;
+    }
+  }
+
+
+
 }
