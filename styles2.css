@@ -172,12 +172,6 @@ nav a:hover {
     border-radius: 10px;
   }
 
-  /* Menu1 ocupa o topo ou largura total no mobile */
-  .menu1 {
-    width: 30%;
-    padding: 18px 0;
-    
-  }
 
   .menu1.active {
   position: fixed;
@@ -185,9 +179,8 @@ nav a:hover {
   justify-content: center;
   animation: fade .18s ease;
   top: 10%;
-  width: 20%;
-  background-color: rgb(41, 41, 41);
+  
   opacity: 0.8;
-  right: 30px;
+  
 }
 }
