@@ -130,7 +130,8 @@ canvas {
   color: #ff00d4;
 }
 
-.socials a {
+.socials a,
+.socials2 a{
   width: 45px;
   height: 45px;
   border: 2px solid var(--highlight);
@@ -652,15 +653,20 @@ input::placeholder {
   color: #ffffff;
 }
 
+
 .rodape {
-  position: relative;
   width: 100%;
   display: flex;
+  justify-content: space-between; /* separa esquerda e direita */
+  align-items: center;
+  padding: 20px 5%;
   backdrop-filter: blur(10px);
   box-shadow: 0 0 20px var(--highlight) inset;
   background: transparent;
   z-index: 999;
+  gap: 20px;
 }
+
 
 
 
@@ -680,6 +686,7 @@ input::placeholder {
   font-size: 20px;
   margin: 15px;
 }
+
 
 
 
@@ -788,7 +795,7 @@ input::placeholder {
 
 
 /* Tablets (até 1024px) */
-@media (max-width: 1124px) {
+@media (max-width: 1240px) {
 
 
   * {
