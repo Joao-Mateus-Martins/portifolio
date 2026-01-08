@@ -397,12 +397,12 @@ h2 {
 }
 
 .sobre-texto {
+  align-items: center;
+  justify-content: center;
   text-align: center;
   width: 1520px;
   font-size: 23px;
   position: relative;
-  margin-right: 100px;
-  margin-top: 50px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #c2c2c2;
   text-align: inherit;
@@ -461,7 +461,8 @@ h2 {
   font-size: 40px;
   border-radius: 50px;
   cursor: pointer;
-  right: 0px;
+  right: 13%;
+  left: 0 auto;
 }
 
 .h4 {
@@ -746,15 +747,7 @@ input::placeholder {
     width: 50%;
   }
 
-  .link {
-    position: relative;
-    margin-left: 20%;
-    align-items: center;
-    gap: 30px;
-    justify-content: center;
-    text-align: center;
-    font-size: 30px;
-  }
+  
 
   .h4 {
     position: relative;
@@ -782,11 +775,7 @@ input::placeholder {
     height: 300px;
   }
 
-  .link {
-    position: relative;
-    align-items: center;
-    right: 13%;
-  }
+  
 
 
 
@@ -974,15 +963,13 @@ input::placeholder {
     align-items: center;
     gap: 20px;
     position: relative;
-    right: 5px;
     padding: 20px 0;
     position: relative;
-    margin-right: 26%;
     align-items: center;
     justify-content: center;
     text-align: center;
     font-size: 27px;
-    right: 12%;
+    
   }
 
   .h4 {
