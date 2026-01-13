@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="styles2.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+  
 </head>
 
 <body>
@@ -318,32 +319,35 @@
     <h2>Mande uma <span class="M">Mensagem</span></h2>
     <div>
       <ul>
-        <input type="name" id="name" placeholder="Seu nome completo:">
+        <input type="text" name="name" placeholder="Seu nome completo:" required>
       </ul>
     </div>
 
     <div>
       <ul>
-        <input type="email" id="email" placeholder="Seu E-mail">
+        <input type="email" name="email" placeholder="Seu E-mail" required>
       </ul>
     </div>
 
     <div>
       <ul>
-        <input type="tel" id="telefone" placeholder="Seu celular">
+        <input type="tel" name="telefone" placeholder="Seu celular" required>
       </ul>
     </div>
 
     <div>
       <ul>
-        <textarea id="Comentarios" name="Comentarios" rows="4" cols="50" placeholder="Digite seus Comentarios aqui"
-          class="d"></textarea>
+        <textarea name="message" rows="4" placeholder="Digite seus comentários aqui" required></textarea>
+      </ul>
     </div>
 
-    <button class="btn">Enviar</button>
+    <button type="submit" class="btn">Enviar</button>
+
+     
+
   </form>
 
-
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 
   <footer class="rodape">
 
@@ -388,6 +392,9 @@
 
   <script src="script.js"></script>
   <script src="fundo.js"></script>
+ 
+  
+  
 
 
 </body>

@@ -650,13 +650,10 @@ textarea {
   outline: none;
 }
 
-.d {
-  padding: 40px;
-}
-
-.d::placeholder {
-  color: #ffffff;
-  font-size: 17px;
+textarea::placeholder{
+  color: #ffff;
+  font-size: 20px;
+  
 }
 
 input::placeholder {
@@ -992,7 +989,7 @@ input::placeholder {
 
 
   .item {
-    left: 200%;
+    left: 100%;
   }
 
   @keyframes autoRun {
@@ -1026,7 +1023,7 @@ input::placeholder {
 
   .rodape {
     flex-direction: column;
-    width: 105%;
+    width: 100%;
   }
 
   .tag {

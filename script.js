@@ -89,3 +89,30 @@ document.addEventListener('click', (e) => {
 
 
 
+(function () {
+    emailjs.init("Mwhp0_m_0GzWTTN2r");
+  })();
+
+  document.getElementById("contato").addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    emailjs.sendForm(
+      "service_m2882im",
+      "template_esvcqg8",
+      this
+    )
+    .then(() => {
+      alert("Mensagem enviada com sucesso!");
+      this.reset();
+    })
+    .catch((error) => {
+      console.log(error);
+      alert("Erro ao enviar mensagem!");
+    });
+  });
+
+
+
+
+
+
