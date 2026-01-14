@@ -147,9 +147,9 @@ nav a:hover {
 @media (max-width: 768px) {
 
   .Box{
-    width: 105%;
+    width: 100%;
     position: fixed;
-    
+    overflow-y: hidden;
   }
 
   .logo{
@@ -192,7 +192,7 @@ nav a:hover {
 
   @keyframes autoRun {
     from {
-      left: 120%;
+      left: 100%;
     }
 
     to {

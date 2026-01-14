@@ -206,6 +206,7 @@ canvas {
   align-items: center;
   justify-content: center;
   text-align: center;
+  
 }
 
 #sobre{
@@ -213,8 +214,9 @@ canvas {
 }
 
 .sobre-texto {
-  width: 1520px;
-  font-size: 23px;
+  width: 1220px;
+  font-size: 20px;
+  left: 50px;
   position: relative;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #c2c2c2;
@@ -256,8 +258,7 @@ h2 {
 .profile {
   position: relative;
   width: 450px;
-  height: 550px;
-  
+  height: 450px;
   left: 50px;
   margin-top: auto;
 
@@ -318,10 +319,10 @@ h2 {
   display: flex;
   text-align: center;
   justify-content: center;
-  top: 150px;
-  height: 850px;
+  top: 190px;
+  height: 650px;
   cursor: pointer;
-  margin-bottom: 350px;
+  margin-bottom: 550px;
 
   & p {
     color: #d3d3d3;
@@ -331,7 +332,7 @@ h2 {
 .especialidades h2 {
   position: relative;
   text-align: center;
-  margin-top: 270px;
+  margin-top: 400px;
   font-size: 50px;
   background: linear-gradient(90deg, rgb(255, 255, 255) 40%, #ff0000 68%, rgb(255, 255, 255) 100%);
   background-clip: text;
@@ -357,7 +358,7 @@ h2 {
 .Skills {
   position: relative;
   padding: 50px 50px;
-  height: 700px;
+  height: 650px;
   bottom: 20px;
   transition: 1.5s;
 }
@@ -549,8 +550,8 @@ h2 {
 }
 
 .contaneir.reverse .item {
-  animation: reverseRun 14s linear infinite;
-  animation-delay: calc(14s / var(--quantity) * var(--delay));
+  animation: reverseRun 20s linear infinite;
+  animation-delay: calc(20s / var(--quantity) * var(--delay));
 }
 
 .item img {
@@ -798,6 +799,7 @@ input::placeholder {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
   }
 
   body {
@@ -908,7 +910,7 @@ input::placeholder {
 
   body {
     overflow-x: hidden;
-    overflow-y: auto ;
+    overflow-y: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
