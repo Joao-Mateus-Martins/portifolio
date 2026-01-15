@@ -146,10 +146,13 @@ nav a:hover {
 /* ---------- ADAPTAÇÕES MOBILE (max-width: 768px) ---------- */
 @media (max-width: 768px) {
 
+  body{
+    overflow-x: hidden;
+  }
+
   .Box{
     width: 100%;
     position: fixed;
-    
   }
 
   .logo{
