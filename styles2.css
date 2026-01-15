@@ -210,25 +210,11 @@ nav a:hover {
     }
 
     to {
-      left: 720%;
+      left: 520%;
     }
   }
 
-  .logo{
-    font-size: 20px;
-    margin-left: 20px;
-  }
-
-  .baixo {
-    margin-bottom: 90rem;
-
-  }
-
-  .contact {
-    & h2 {
-      font-size: 10px;
-    }
-  }
+ 
 
 
 
