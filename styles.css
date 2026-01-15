@@ -1025,7 +1025,8 @@ input::placeholder {
 
   .rodape {
     flex-direction: column;
-    width: 105%;
+    width: 100%;
+    right: 0;
   }
 
   .tag {
