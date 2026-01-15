@@ -17,6 +17,8 @@ body {
   background-color: #000000;
   color: var(--text);
   overflow-x: hidden;
+  max-width: 100%;
+  position: relative;
 }
 
 canvas {
@@ -65,7 +67,7 @@ canvas {
 }
 
 .profile-img img {
-  width: 100%;
+  width: 90%;
   height: auto;
   object-fit: cover;
   mix-blend-mode: multiply;
@@ -916,7 +918,7 @@ input::placeholder {
     align-items: center;
     justify-content: center;
     text-align: center;
-    max-width: 99%;
+    max-width: 100%;
     position: relative;
   }
 
