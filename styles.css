@@ -894,7 +894,7 @@ input::placeholder {
     align-items: center;
     justify-content: center;
     text-align: center;
-
+    width: 100%;
   }
 
 
@@ -916,7 +916,7 @@ input::placeholder {
     align-items: center;
     justify-content: center;
     text-align: center;
-    
+    width: 100%;
     
   }
 
