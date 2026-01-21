@@ -904,6 +904,13 @@ input::placeholder {
     width: 100%;
   }
 
+  .Services,
+  .Skills,
+  .Education{
+    padding: 10px 10px;
+    width: 300px;
+  }
+
 
 }
 
