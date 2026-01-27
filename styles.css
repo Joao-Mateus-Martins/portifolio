@@ -1088,6 +1088,21 @@ input::placeholder {
 
   }
 
+@media (max-width: 480px) {
+  .education {
+    margin-bottom: 40px;
+  }
+
+  .projects {
+    margin-top: 0;
+  }
+
+  .education,
+  .projects {
+    position: static;
+    height: auto;
+  }
+}
 
 
 }
