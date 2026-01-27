@@ -1015,7 +1015,7 @@ input::placeholder {
 
   .especialidades {
     position: relative;
-    margin-top: 80px;
+    margin-top: 200px;
     width: 90%;
     min-width: 50%;
     text-align: center;
@@ -1097,21 +1097,6 @@ input::placeholder {
 
   }
 
-  @media (max-width: 480px) {
-    .education {
-      margin-bottom: 500px;
-    }
-
-    .projects {
-      margin-top: 0;
-    }
-
-    .education,
-    .projects {
-      position: static;
-      height: auto;
-    }
-  }
 
 
 }
