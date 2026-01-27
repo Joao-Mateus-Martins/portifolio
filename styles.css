@@ -279,9 +279,9 @@ h2 {
   justify-content: center;
   text-align: center;
   display: flex;
-  gap: 80px;
+  gap: 30px;
   margin-top: 0px;
-  font-size: 40px;
+  font-size: 30px;
   border-radius: 50px;
   cursor: pointer;
   
