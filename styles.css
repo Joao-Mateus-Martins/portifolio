@@ -913,7 +913,25 @@ input::placeholder {
     padding: 10px 10px;
     width: 300px;
   }
+  @keyframes autoRun {
+    from {
+      left: 100%;
+    }
 
+    to {
+      left: -300px;
+    }
+  }
+
+  @keyframes reverseRun {
+    from {
+      left: -300px;
+    }
+
+    to {
+      left: 300%;
+    }
+  }
 
 }
 
