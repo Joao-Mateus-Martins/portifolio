@@ -61,14 +61,16 @@ canvas {
 .profile-img {
   position: relative;
   height: 500px;
-  width: 500px;
-  top: -80px;
+  width: 400px;
+  top: -30px;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
-
+  border-radius: 100px;
+ 
+ 
 }
 
 .profile-img img {
@@ -76,6 +78,7 @@ canvas {
   height: auto;
   object-fit: cover;
   mix-blend-mode: multiply;
+  
 }
 
 .profile1 {
@@ -83,7 +86,7 @@ canvas {
   position: absolute;
   align-items: center;
   justify-content: center;
-
+  
 }
 
 
