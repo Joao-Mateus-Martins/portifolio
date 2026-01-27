@@ -11,7 +11,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   width: 100%;
   max-width: 100%;
   overflow-x: hidden;
@@ -69,8 +70,8 @@ canvas {
   align-items: center;
   cursor: pointer;
   border-radius: 100px;
- 
- 
+
+
 }
 
 .profile-img img {
@@ -78,7 +79,7 @@ canvas {
   height: auto;
   object-fit: cover;
   mix-blend-mode: multiply;
-  
+
 }
 
 .profile1 {
@@ -86,7 +87,7 @@ canvas {
   position: absolute;
   align-items: center;
   justify-content: center;
-  
+
 }
 
 
@@ -141,7 +142,7 @@ canvas {
 }
 
 .socials a,
-.socials2 a{
+.socials2 a {
   width: 45px;
   height: 45px;
   border: 2px solid var(--highlight);
@@ -216,10 +217,10 @@ canvas {
   align-items: center;
   justify-content: center;
   text-align: center;
-  
+
 }
 
-#sobre{
+#sobre {
   margin-bottom: 355px;
 }
 
@@ -284,10 +285,10 @@ h2 {
   font-size: 30px;
   border-radius: 50px;
   cursor: pointer;
-  
+
 }
 
-.h5{
+.h5 {
   text-align: center;
 }
 
@@ -535,10 +536,10 @@ h2 {
   text-align: center;
   font-size: 50px;
   bottom: 100px;
-  
+
 }
 
-#projects{
+#projects {
   height: 220px;
 }
 
@@ -661,10 +662,10 @@ textarea {
   outline: none;
 }
 
-textarea::placeholder{
+textarea::placeholder {
   color: #ffff;
   font-size: 20px;
-  
+
 }
 
 input::placeholder {
@@ -676,7 +677,8 @@ input::placeholder {
   width: 100%;
   display: flex;
   margin-top: 20px;
-  justify-content: space-between; /* separa esquerda e direita */
+  justify-content: space-between;
+  /* separa esquerda e direita */
   align-items: center;
   padding: 20px 5%;
   backdrop-filter: blur(10px);
@@ -765,7 +767,7 @@ input::placeholder {
     width: 50%;
   }
 
-  
+
 
   .h4 {
     position: relative;
@@ -793,7 +795,7 @@ input::placeholder {
     height: 300px;
   }
 
-  
+
 
 
 
@@ -809,7 +811,7 @@ input::placeholder {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
   }
 
   body {
@@ -877,6 +879,12 @@ input::placeholder {
     font-size: 18px;
   }
 
+  .baixo {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+
   .especialidades {
     position: relative;
     margin-top: 100px;
@@ -909,10 +917,11 @@ input::placeholder {
 
   .Services,
   .Skills,
-  .Education{
+  .Education {
     padding: 10px 10px;
     width: 300px;
   }
+
   @keyframes autoRun {
     from {
       left: 100%;
@@ -952,7 +961,7 @@ input::placeholder {
     justify-content: center;
     text-align: center;
     width: 100%;
-    
+
   }
 
   /* Responsividade */
@@ -1002,7 +1011,7 @@ input::placeholder {
   }
 
 
- 
+
 
   .especialidades {
     position: relative;
@@ -1088,21 +1097,21 @@ input::placeholder {
 
   }
 
-@media (max-width: 480px) {
-  .education {
-    margin-bottom: 40px;
-  }
+  @media (max-width: 480px) {
+    .education {
+      margin-bottom: 40px;
+    }
 
-  .projects {
-    margin-top: 0;
-  }
+    .projects {
+      margin-top: 0;
+    }
 
-  .education,
-  .projects {
-    position: static;
-    height: auto;
+    .education,
+    .projects {
+      position: static;
+      height: auto;
+    }
   }
-}
 
 
 }
