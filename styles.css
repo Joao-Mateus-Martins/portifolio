@@ -1099,7 +1099,7 @@ input::placeholder {
 
   @media (max-width: 480px) {
     .education {
-      margin-bottom: 40px;
+      margin-bottom: 500px;
     }
 
     .projects {
