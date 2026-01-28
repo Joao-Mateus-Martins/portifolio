@@ -1011,10 +1011,22 @@ input::placeholder {
     width: 45%;
     height: 300px;
   }
+  #projects::before {
+    content: "";
+    display: block;
+    height: 180px; /* AJUSTÁVEL */
+  }
 
-#projects{
-  margin-top: 400px;
-}
+  /* garante que o carrossel respeite o fluxo */
+  .contaneir {
+    position: relative;
+    min-height: 420px; /* força altura real */
+  }
+
+  .carrosel {
+    position: relative;
+    height: 400px;
+  }
 
 
   .item {
