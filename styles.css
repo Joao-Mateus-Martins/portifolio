@@ -882,7 +882,7 @@ input::placeholder {
   .baixo {
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 20px;
   }
 
   .especialidades {
@@ -893,7 +893,7 @@ input::placeholder {
   }
 
   .baixo {
-    margin-bottom: 120rem;
+    margin-bottom: 100rem;
   }
 
   .especi {
@@ -921,6 +921,7 @@ input::placeholder {
     padding: 10px 10px;
     width: 350px;
     overflow-wrap: break-word; 
+    
   }
 
   @keyframes autoRun {
@@ -1011,15 +1012,14 @@ input::placeholder {
     height: 300px;
   }
 
-
-
-  
-
+#projects{
+  margin-top: 400px;
+}
 
 
   .item {
     left: 100%;
-    height: 400px;
+    height: 500px;
   }
 
   @keyframes autoRun {
