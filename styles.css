@@ -874,6 +874,7 @@ input::placeholder {
 
   .baixo {
     position: relative;
+    margin-bottom: 100%;
   }
 
   .especi {
@@ -883,7 +884,7 @@ input::placeholder {
     position: relative;
   }
 
-   .projeto{
+    .projeto{
     margin-top: 100%;
   }
 
