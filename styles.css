@@ -330,10 +330,11 @@ h2 {
   display: flex;
   text-align: center;
   justify-content: center;
-  top: 190px;
-  height: 650px;
+  bottom: 500px;
+  height: 300px;
+  
   cursor: pointer;
-  margin-bottom: 550px;
+ 
 
   & p {
     color: #d3d3d3;
@@ -532,14 +533,17 @@ h2 {
 
 
 .projeto {
-  position: relative;
+  position: sticky;
   text-align: center;
   font-size: 50px;
   bottom: 100px;
+  
 }
 
 #projects {
+  position: sticky;
   height: 220px;
+  width: 220px;
 }
 
 .carrosel {
@@ -794,10 +798,7 @@ input::placeholder {
     height: 300px;
   }
 
-  .projeto{
-    position: relative;
-    
-  }
+ 
 
 
 }
