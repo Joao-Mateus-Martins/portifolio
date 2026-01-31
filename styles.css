@@ -780,6 +780,24 @@ input::placeholder {
     font-size: 50px;
   }
 
+    .profile {
+    display: none;
+  }
+
+  .profile1 {
+    display: block;
+    left: 38%;
+    top: 50px;
+    width: 25%;
+    height: 300px;
+  }
+
+  #projects{
+    position: relative;
+    padding: 30rem;
+  }
+
+
 }
 
 
@@ -874,7 +892,7 @@ input::placeholder {
 
   .baixo {
     position: relative;
-    margin-bottom: 200%;
+    margin-bottom: 100%;
   }
 
   .especi {
@@ -883,9 +901,8 @@ input::placeholder {
     align-items: center;
     position: relative;
   }
-
-    .projeto{
-    margin-top: 100%;
+  .projeto{
+    margin-top: 100px;
   }
 
   .tag {
