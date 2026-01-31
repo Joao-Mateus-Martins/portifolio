@@ -561,7 +561,7 @@ h2 {
 
 .contaneir.reverse{
   position: relative;
-  margin-bottom: 500px;
+  top: 300px;
 }
 
 .contaneir.reverse .item {
