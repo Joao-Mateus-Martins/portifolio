@@ -551,7 +551,7 @@ h2 {
 .item {
   width: var(--width);
   height: var(--height);
-  position: absolute;
+  
   left: 100%;
   animation: autoRun 10s linear infinite;
   animation-delay: calc(15s / var(--quantity) * var(--delay));
@@ -559,10 +559,7 @@ h2 {
   top: 20px;
 }
 
-.contaneir.reverse{
-  position: relative;
-  top: 300px;
-}
+
 
 .contaneir.reverse .item {
   animation: reverseRun 20s linear infinite;
