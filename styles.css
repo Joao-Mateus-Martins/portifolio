@@ -552,7 +552,7 @@ h2 {
 .item {
   width: var(--width);
   height: var(--height);
-  position: relative;
+  position: absolute;
   left: 100%;
   animation: autoRun 10s linear infinite;
   animation-delay: calc(15s / var(--quantity) * var(--delay));
@@ -783,23 +783,6 @@ input::placeholder {
     font-size: 50px;
   }
 
-  .profile {
-    display: none;
-  }
-
-  .profile1 {
-    display: block;
-    left: 38%;
-    top: 50px;
-    width: 25%;
-    height: 300px;
-  }
-
-
-
-
-
-
 }
 
 
@@ -893,18 +876,19 @@ input::placeholder {
   }
 
   .baixo {
-    margin-bottom: 100rem;
+    margin-bottom: 200%;
+    position: relative;
   }
 
   .especi {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
   }
 
   .tag {
     position: relative;
-
   }
 
   .rodape {
@@ -962,7 +946,7 @@ input::placeholder {
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 100%;
+    
 
   }
 
@@ -995,10 +979,6 @@ input::placeholder {
   }
 
 
-  .R img {
-    display: none;
-  }
-
   .title h2 {
     margin-bottom: 300px;
     font-size: 50px;
@@ -1011,6 +991,7 @@ input::placeholder {
     width: 45%;
     height: 300px;
   }
+  
   #projects::before {
     content: "";
     display: block;
