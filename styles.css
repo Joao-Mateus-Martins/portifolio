@@ -536,7 +536,6 @@ h2 {
   text-align: center;
   font-size: 50px;
   bottom: 100px;
-  margin-top:100% ;
 }
 
 #projects {
@@ -730,7 +729,9 @@ input::placeholder {
 @media (max-width: 1600px) {
 
 
-
+  .projeto{
+    margin-top:100% ;
+  }
 
 
   @keyframes autoRun {
