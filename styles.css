@@ -729,10 +729,6 @@ input::placeholder {
 @media (max-width: 1600px) {
 
 
-  .projeto{
-    margin-top:100% ;
-  }
-
 
   @keyframes autoRun {
     from {
@@ -877,7 +873,6 @@ input::placeholder {
   }
 
   .baixo {
-    margin-bottom: 200%;
     position: relative;
   }
 
@@ -886,6 +881,10 @@ input::placeholder {
     flex-direction: column;
     align-items: center;
     position: relative;
+  }
+
+   .projeto{
+    margin-top: 100%;
   }
 
   .tag {
