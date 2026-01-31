@@ -539,7 +539,7 @@ h2 {
 }
 
 #projects {
-  height: 220px;
+  height: 620px;
 }
 
 .carrosel {
@@ -792,9 +792,9 @@ input::placeholder {
     height: 300px;
   }
 
-  #projects{
+  .projeto{
     position: relative;
-    padding: 30rem;
+    
   }
 
 
