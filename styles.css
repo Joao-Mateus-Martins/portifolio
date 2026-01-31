@@ -539,7 +539,7 @@ h2 {
 }
 
 #projects {
-  height: 620px;
+  height: 220px;
 }
 
 .carrosel {
@@ -557,6 +557,11 @@ h2 {
   animation-delay: calc(15s / var(--quantity) * var(--delay));
   cursor: pointer;
   top: 20px;
+}
+
+.contaneir.reverse{
+  position: relative;
+  margin-top: 200px;
 }
 
 .contaneir.reverse .item {
