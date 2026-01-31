@@ -552,7 +552,7 @@ h2 {
 .item {
   width: var(--width);
   height: var(--height);
-  position: absolute;
+  position: relative;
   left: 100%;
   animation: autoRun 10s linear infinite;
   animation-delay: calc(15s / var(--quantity) * var(--delay));
