@@ -994,6 +994,9 @@ input::placeholder {
     font-size: 50px;
   }
 
+  .baixo{
+    margin-bottom: 1000px;
+  }
   .profile1 {
     display: block;
     left: 29%;
@@ -1016,7 +1019,7 @@ input::placeholder {
 
   .carrosel {
     position: relative;
-    height: 800px;
+    height: 200px;
   }
 
 
