@@ -330,11 +330,10 @@ h2 {
   display: flex;
   text-align: center;
   justify-content: center;
-  bottom: 500px;
-  height: 300px;
-  
+  top: 190px;
+  height: 650px;
   cursor: pointer;
- 
+  margin-bottom: 550px;
 
   & p {
     color: #d3d3d3;
@@ -520,30 +519,17 @@ h2 {
   margin-bottom: 30px;
 }
 
-.contaneir {
-  width: 100%;
-  height: var(--height);
-  mask-image: linear-gradient(to right, transparent, #000000 10% 90%, transparent);
-  -webkit-mask-image: linear-gradient(to right, transparent, #000 10% 90%, transparent);
-  position: relative;
-  text-align: center;
-  overflow: hidden;
-}
 
 
 
 .projeto {
-  position: sticky;
+  position: relative;
   text-align: center;
   font-size: 50px;
-  bottom: 100px;
-  
 }
 
 #projects {
-  position: sticky;
   height: 220px;
-  width: 220px;
 }
 
 .carrosel {
@@ -563,6 +549,15 @@ h2 {
   top: 20px;
 }
 
+.contaneir {
+  width: 100%;
+  height: var(--height);
+  mask-image: linear-gradient(to right, transparent, #000000 10% 90%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 10% 90%, transparent);
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
 
 
 .contaneir.reverse .item {
@@ -798,8 +793,6 @@ input::placeholder {
     height: 300px;
   }
 
- 
-
 
 }
 
@@ -881,9 +874,10 @@ input::placeholder {
   }
 
   .baixo {
+    position: relative;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    margin-bottom: 100%;
   }
 
   .especialidades {
@@ -893,10 +887,6 @@ input::placeholder {
     text-align: center;
   }
 
-  .baixo {
-    position: relative;
-    margin-bottom: 100%;
-  }
 
   .especi {
     display: flex;
@@ -905,7 +895,7 @@ input::placeholder {
     position: relative;
   }
   .projeto{
-    margin-top: 100px;
+    margin-top: 500px;
   }
 
   .tag {
@@ -967,7 +957,6 @@ input::placeholder {
     align-items: center;
     justify-content: center;
     text-align: center;
-    
 
   }
 
@@ -1027,7 +1016,7 @@ input::placeholder {
 
   .carrosel {
     position: relative;
-    height: 400px;
+    height: 800px;
   }
 
 
