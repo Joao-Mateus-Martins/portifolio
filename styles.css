@@ -994,9 +994,7 @@ input::placeholder {
     font-size: 50px;
   }
 
-  .baixo{
-    margin-bottom: 1000px;
-  }
+  
   .profile1 {
     display: block;
     left: 29%;
@@ -1014,7 +1012,7 @@ input::placeholder {
   /* garante que o carrossel respeite o fluxo */
   .contaneir {
     position: relative;
-    min-height: 420px; /* força altura real */
+    min-height: 120px; /* força altura real */
   }
 
   .carrosel {
