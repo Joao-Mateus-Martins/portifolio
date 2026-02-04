@@ -39,8 +39,8 @@ canvas {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 300px 150px 150px;
-  margin-bottom: 15%;
+  padding: 250px 150px 150px;
+  margin-bottom: 10%;
 
 
 
@@ -204,7 +204,6 @@ canvas {
 }
 
 
-
 .sobre {
   position: relative;
   margin-top: 20px;
@@ -219,7 +218,7 @@ canvas {
 }
 
 .sobre-texto {
-  width: 1220px;
+  width: 1020px;
   font-size: 20px;
   left: 50px;
   position: relative;
@@ -232,6 +231,14 @@ canvas {
   display: flex;
   position: relative;
   gap: 100px;
+
+ 
+}
+
+.R,
+h2 {
+  margin-top: 50px;
+
 }
 
 .pf {
@@ -240,11 +247,6 @@ canvas {
   text-shadow: 0 0 30px #ff0000;
 }
 
-.R,
-h2 {
-  margin-top: 50px;
-
-}
 
 .title {
   position: relative;
@@ -266,7 +268,6 @@ h2 {
   height: 450px;
   left: 50px;
   margin-top: auto;
-
 }
 
 .link {
@@ -282,9 +283,7 @@ h2 {
 
 }
 
-.h5 {
-  text-align: center;
-}
+
 
 
 
@@ -319,21 +318,6 @@ h2 {
   }
 }
 
-.baixo {
-  position: relative;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  top: 190px;
-  height: 650px;
-  cursor: pointer;
-  margin-bottom: 550px;
-
-  & p {
-    color: #d3d3d3;
-  }
-}
-
 .especialidades h2 {
   position: relative;
   text-align: center;
@@ -345,6 +329,22 @@ h2 {
   -webkit-text-fill-color: transparent;
   top: 135px;
 }
+
+.baixo {
+  position: relative;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  top: 180px;
+  cursor: pointer;
+  margin-bottom: 700px;
+
+  & p {
+    color: #d3d3d3;
+  }
+}
+
+
 
 .p {
   background: linear-gradient(90deg, rgb(255, 255, 255) 40%, #ff4c4c 68%, rgb(92, 0, 0) 100%);
@@ -871,7 +871,7 @@ input::placeholder {
     position: relative;
     display: flex;
     flex-direction: column;
-    margin-bottom: 100%;
+
   }
 
   .especialidades {
